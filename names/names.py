@@ -24,6 +24,11 @@ for n in names_2:
     if n in dict:
         duplicates.append(n)
 
+# my_dict = dict.fromkeys(names_1)
+# list_set = set(names_2)
+# dict_set = set(my_dict)
+# duplicates = list_set.intersection(dict_set)
+
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
